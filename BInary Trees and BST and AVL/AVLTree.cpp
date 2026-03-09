@@ -10,7 +10,7 @@ class TreeNode{
     //constructor
     TreeNode(int val){
         data = val;
-
+        height = 1;
         left = NULL;
         right = NULL;
     }
